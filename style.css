@@ -3,10 +3,14 @@
     line-height: 0;
 }
 
+/*******************************welcome******************************************************/
+
 .copyright{ 
     margin-top: -20px;
     margin-left: 1px;
 } 
+
+/******************************welcome and search (opposite side)*************************************************************/
 
 #copyandsearch{
    display: flex; 
@@ -16,22 +20,7 @@
    margin-top: -20px;
 }
 
-#logo{
-    height: 50px;
-}
-#mainheading{
-    display: flex; 
-    align-items: center;
-    justify-content: space-between; 
-    flex-wrap: wrap;
-    
-
-}
-#logoandheading{
-    display: flex; 
-    align-items: center;
-    margin-top: -40px;
-}
+/***********************************search and search button**********************************************************/
 
 #search{
     margin-right: 5px;
@@ -56,6 +45,27 @@
     border-radius: 6px; 
 
 }
+
+/******************************Enblem and Heading***********************************************/
+
+#logo{
+    height: 50px;
+}
+#mainheading{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    
+
+}
+#logoandheading{
+    display: flex; 
+    align-items: center;
+    margin-top: -40px;
+}
+
+/*******************************Center, home pages, Legal awareness and kyc*********************************************************/
 
 #legal{
     font-style: italic;
@@ -116,6 +126,9 @@
     color: #ff004f; 
     transform: translateY(-10px);
 }
+
+/*************************************Contact Us******************************************************/
+
 .social-icons{
     margin-left: 20px;
 }
@@ -135,6 +148,8 @@
     transform: translateY(-5px); 
 }
 
+/***********************************copyright bottom*********************************************************/
+
 .copyrightbottom{
     width: 100%;
     text-align: center;
@@ -151,6 +166,8 @@
 
 
 }
+
+/**************************************Menu**************************************************/
 
 #menu .nav {
     list-style: none;
@@ -185,3 +202,53 @@
     margin-left: 0;
   }
   
+
+/***************************Feedback****************************************/
+/**********************Form**********************/
+
+.contact-right form{ 
+    width: 95%; 
+} 
+ 
+form input, form textarea{ 
+    width: 100%; 
+    border: 0; 
+    outline: none; 
+    background: #262626; 
+    padding: 15px; 
+    margin: 15px 0; 
+    color: #fff; 
+    font-size: 18px; 
+    border-radius: 6px; 
+    margin-left: 15px;
+ 
+ 
+} 
+
+/********************************submit Button*******************************************/
+form .btn2{ 
+    padding: 14px 60px; 
+    font-size: 18px;  
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: -5px;
+    margin-left: 15px;
+
+ 
+}
+
+.btn.btn2{ 
+    display: inline-block; 
+    background: #ff004f; 
+} 
+
+
+/*********************************after submitting Feedback submitted will print*********************************************/
+
+#msg{ 
+    color: #0b4002; 
+    margin-top: 30px; 
+    display: block;
+    margin-left: 15px;
+    font-size: xx-large;
+}
