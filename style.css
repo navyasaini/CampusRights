@@ -152,3 +152,36 @@
 
 }
 
+#menu .nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    height: 30px;
+  }
+  
+  #menu .nav-item {
+    margin: 0;
+  }
+  
+  #menu .nav-link {
+    margin-top: 50%;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px; 
+  }
+  
+  #menu .nav-link.active {
+    background-color: white;
+    color: black;
+  }
+  
+  #menu .nav-link:hover {
+    background-color: grey; 
+  }
+  
+  #menu .nav-link:first-child {
+    margin-left: 0;
+  }
+  
