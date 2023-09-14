@@ -25,6 +25,45 @@
              </div>
         </section>
     </section>
+    
+    <style>
+        .slide2show-container {
+            width: 100%;
+            overflow: hidden;
+            position:relative;
+        }
+        .my2Slides {
+            width:100%;
+            overflow:hidden;
+            display: inline-block;
+        }
+        .my2Slides img{
+            width:100%;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+        }
+        .prev {
+            left: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        .next {
+            right: 0;
+            border-radius: 0 3px 3px 0;
+        }
+    </style>
+    
+
 </head>
 <body>
     <div id="mainheading">
@@ -137,10 +176,54 @@
             <a  style="color:white;text-decoration:none; margin: 0 10px;" class="flex-sm-fill text-sm-center nav-link active" href="index.html">Home</a>
             <a  style="color:white;text-decoration:none; margin: 0 10px;" class="flex-sm-fill text-sm-center nav-link active" href="help.html">Help</a>
             <a style="color:white; text-decoration: none; margin: 0 10px;"   class="flex-sm-fill text-sm-center nav-link" href="disclaimer.html">Disclaimer</a>
-            <a style="color: white; text-decoration: none; margin: 0 10px;" class="flex-sm-fill text-sm-center nav-link" href="#">Contact us</a>
+            <a style="color: white; text-decoration: none; margin: 0 10px;" class="flex-sm-fill text-sm-center nav-link" href="contact.html">Contact us</a>
           </nav>
           </div>
     </section>
+
+    <div class="slide2show-container">
+        <div class="my2Slides">
+            <img src="/images/g20logo.jpg" style="width:100%; height:200px">
+        </div>
+        <div class="my2Slides">
+            <img src="/images/ladyjustice.jpg" style="width:100%; height:200px">
+        </div>
+        <div class="my2Slides">
+            <img src="/images/monument.jpg" style="width:100%; height:200px">
+        </div>
+        <div class="my2Slides">
+            <img src="/images/justice.jpg" style="width:100%; height:200px">
+        </div>
+        <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+        <div class="next" onclick="plusSlides(1)">&#10095;</div>
+    </div>
+    
+    <script>
+        let slide2Index = 1;
+        show2Slides(slide2Index);
+    
+        function plusSlides(n) {
+            show2Slides(slide2Index += n);
+        }
+    
+        function show2Slides(n) {
+            let i;
+            const slides = document.getElementsByClassName("my2Slides");
+    
+            if (n > slides.length) {
+                slide2Index = 1;
+            }
+            if (n < 1) {
+                slide2Index = slides.length;
+            }
+    
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+    
+            slides[slide2Index - 1].style.display = "block";
+        }
+    </script>
     
     <div class="copyrightbottom">
         <p>Website is owned and content managed by <span>Smart Bytes</span></p>
