@@ -2,6 +2,20 @@
     color: black;
     line-height: 0;
 }
+
+.copyright{ 
+    margin-top: -10px;
+    margin-left: 1px;
+} 
+
+#copyandsearch{
+   display: flex; 
+   align-items: center;
+   justify-content: space-between; 
+   flex-wrap: wrap;
+   margin-top: -20px;
+}
+
 #logo{
     height: 50px;
 }
@@ -16,6 +30,7 @@
 #logoandheading{
     display: flex; 
     align-items: center;
+    margin-top: -20px;
 }
 
 #search{
@@ -57,4 +72,20 @@
     margin-left: 100px;
     margin-top: 50px;
     
+}
+
+.copyrightbottom{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    background: #0e0d0d;
+    font-weight: 300;
+    margin-top: 20px;
+    color: #f3ebeb;
+}
+
+.copyrightbottom span{
+    color: #ff004f;
+        
+
 }
