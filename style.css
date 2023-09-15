@@ -1,6 +1,8 @@
+/**************main heading Ministry of laws & justice***************************/
 #heading{
     color: black;
     line-height: 0;
+    font-size: larger;
 }
 
 /*******************************welcome******************************************************/
@@ -49,7 +51,8 @@
 /******************************Enblem and Heading***********************************************/
 
 #logo{
-    height: 50px;
+    height: 100px;
+    width: 100px;
 }
 #mainheading{
     display: flex; 
@@ -57,12 +60,13 @@
     justify-content: space-between; 
     flex-wrap: wrap;
     
+    
 
 }
 #logoandheading{
     display: flex; 
     align-items: center;
-    margin-top: -40px;
+    margin-top: -20px;
 }
 
 /*******************************Center, home pages, Legal awareness and kyc*********************************************************/
