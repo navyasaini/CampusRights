@@ -15,12 +15,16 @@
         </section>
     
         <section id="search">
-            <div id="searchbar"> 
-               <div class="search-bar">
-                   <input type="text" search="search" placeholder="search" required>
-                   <button id="searchbutton" type="search" class="btn btn2">Search</button>
+            <div class="searchandbutton">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search...">
+                    <button id="search-button">Search</button>
                 </div>
-             </div>
+                <div id="search-results"></div>
+            
+                <script src="script.js"></script>
+            
+            </div>
         </section>
     </section>
 
@@ -154,33 +158,29 @@
 </div>
 
 <script>
-    let slideIndex = 0;
-    showSlides();
+    let slideIndex = 1;
+    showSlides(slideIndex);
 
     function plusSlides(n) {
-        showSlides((slideIndex += n));
+        showSlides(slideIndex += n);
     }
 
-    function showSlides() {
+    function showSlides(n) {
         let i;
         const slides = document.getElementsByClassName("mySlides");
+
+        if (n > slides.length) {
+            slideIndex = 1;
+        }
+        if (n < 1) {
+            slideIndex = slides.length;
+        }
 
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
 
-        if (slideIndex >= slides.length) {
-            slideIndex = 0;
-        }
-        if (slideIndex < 0) {
-            slideIndex = slides.length - 1;
-        }
-
-        slides[slideIndex].style.display = "block";
-
-        setTimeout(function () {
-            plusSlides(1);
-        }, 5000); 
+        slides[slideIndex - 1].style.display = "block";
     }
 </script>
 
@@ -191,8 +191,8 @@
     <img src="/images/legal.jpg" class="card-img-top" height="200px" width=100%>
     <div class="card-body">
       <h3 class="card-title">Legal Awareness</h3><p>Legal Awareness, sometimes called public legal education or legal literacy, is the empowerment of individuals regarding issues involving the law.</p>
-      <a href="legalawareness.html"> <button style="background-color: skyblue; color: black; border-color: skyblue;" type="button" class="btn btn-success"><b>Know More</b></button>
-   </a> </div>
+      <a href="legalawareness.html"><button style="background-color: skyblue; color: black; border-color: skyblue;" type="button" class="btn btn-success"><b>Know More</b></button>
+    </a></div>
   </div>
 </section>
 
@@ -235,31 +235,32 @@
 </div>
 
 <script>
-    let slideIndex = 0;
-    showSlides();
+    let slide2Index = 1;
+    show2Slides(slide2Index);
 
     function plusSlides(n) {
-        showSlides((slideIndex += n));
+        show2Slides(slide2Index += n);
     }
 
-    function showSlides() {
+    function show2Slides(n) {
         let i;
-        const slides = document.getElementsByClassName("mySlides");
+        const slides = document.getElementsByClassName("my2Slides");
+
+        if (n > slides.length) {
+            slide2Index = 1;
+        }
+        if (n < 1) {
+            slide2Index = slides.length;
+        }
 
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
 
-        if (slideIndex >= slides.length) {
-            slideIndex = 0;
-        }
-        if (slideIndex < 0) {
-            slideIndex = slides.length - 1;
-        }
-
-        slides[slideIndex].style.display = "block";
+        slides[slide2Index - 1].style.display = "block";
     }
 </script>
+
 
 
 

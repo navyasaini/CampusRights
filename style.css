@@ -8,7 +8,7 @@
 /*******************************welcome******************************************************/
 
 .copyright{ 
-    margin-top: -20px;
+    margin-top: 10px;
     margin-left: 1px;
 } 
 
@@ -19,34 +19,31 @@
    align-items: center;
    justify-content: space-between; 
    flex-wrap: wrap;
-   margin-top: -20px;
+   margin-top: -15px;
 }
 
 /***********************************search and search button**********************************************************/
 
-#search{
-    margin-right: 5px;
+/* Add your CSS styles here */
+.search-container {
+    text-align: center;
+    margin-top: 10px;
 }
 
-#searchbar{
-    width: 100%; 
-    border: 0; 
-    outline: none; 
-    background: #262626; 
-    
-    margin: 15px 0; 
-    color: #fff; 
-    font-size: 18px; 
-    border-radius: 6px; 
+#search-input {
+    padding: 10px;
+    width: 200px;
 }
-#searchbutton{
-    padding: 5px 10px; 
-    font-size: 18px;
-    background-color: #fff;
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
     cursor: pointer;
-    border-radius: 6px; 
-
 }
+
+
 
 /******************************Enblem and Heading***********************************************/
 
@@ -66,7 +63,7 @@
 #logoandheading{
     display: flex; 
     align-items: center;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 /*******************************Center, home pages, Legal awareness and kyc*********************************************************/
