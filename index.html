@@ -23,10 +23,10 @@
                 <div id="search-results"></div>
             
                 <script src="script.js"></script>
-            
             </div>
         </section>
     </section>
+
 
     <style>
         .slideshow-container {
@@ -50,7 +50,7 @@
             width: auto;
             padding: 16px;
             margin-top: -22px;
-            color: whitesmoke;
+            color: black;
             font-weight: bold;
             font-size: 18px;
             transition: 0.6s ease;
@@ -66,43 +66,6 @@
         }
     </style>
 
-
-<style>
-    .slide2show-container {
-        width: 100%;
-        overflow: hidden;
-        position:relative;
-    }
-    .my2Slides {
-        width:100%;
-        overflow:hidden;
-        display: inline-block;
-    }
-    .my2Slides img{
-        width:100%;
-    }
-    .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        padding: 16px;
-        margin-top: -22px;
-        color: whitesmoke;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-    }
-    .prev {
-        left: 0;
-        border-radius: 3px 0 0 3px;
-    }
-    .next {
-        right: 0;
-        border-radius: 0 3px 3px 0;
-    }
-</style>
 
 </head>
 <body>
@@ -158,6 +121,7 @@
 </div>
 
 
+
 <div style="display: flex;">
 <section>
 <div id="box1" class="box" >
@@ -195,6 +159,16 @@
       </div>
 </section>
 
+<div class="my2Slides">
+    <img src="/images/indexbottimg.jpg" style="width:100%; height:200px">
+</div>
+
+
+
+<div class="copyrightbottom">
+    <p>Website is owned and content managed by <span>Smart Bytes</span></p>
+</div>
+
 <script>
     let slideIndex = 1;
     showSlides(slideIndex);
@@ -223,9 +197,7 @@
 </script>
 
 
-<div class="copyrightbottom">
-    <p>Website is owned and content managed by <span>Smart Bytes</span></p>
-</div>
+
 
 </body> 
 </html>
