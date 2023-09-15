@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feedback</title>
+    <title>Disclaimer</title>
     <link rel="stylesheet" href="style.css">
     <section id="copyandsearch">
         <section>
@@ -96,46 +96,57 @@
           </li>
       </ul>
       </section>
+      <br> <br>
 
-    <h2 style="color: red; margin-left: 15px;">Feedback</h2>
-    <hr>
+<h2 style="color: red;">Terms and Conditions</h2>
+<hr>
+<h3>1. Acceptance of Terms
+    <br>
+    By accessing or using this website, you agree to comply with and be bound by these Terms and Conditions. If you do not agree to these terms, please do not use this website.
+    <br><br>
+    2. Use of the Website<br>
     
-    <div class="contact-right">
-        <form name="submit-to-google-sheet">
-            <h4 style="margin-left: 15px;">Your Name</h4><p><input type="text" name="Name" placeholder="Your Name" required></p>
-            <h4 style="margin-left: 15px;">Your Email</h4><p><input type="email" name="Email" placeholder="Your email" required></p>
-            <h4 style="margin-left: 15px;">Feedback</h4><p><textarea name="Message" rows="6" placeholder="Feedback"></textarea></p>
-            <button type="submit" class="btn btn2">Submit</button>
-        </form>
-        <span id="msg"></span>
-    </div>
-</div>
-</div>
-
-<!------------------------form setup for taking response-------------------------------cont scriptURL: link of excel after deploying------------->  
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzkeJ4XLJecSd8-vyqHQwPB_y05UvF5GBeNVy4jnbnfFFbbxXhEaRkrbxMCmKmUv4iPFw/exec'    
-    const form = document.forms['submit-to-google-sheet']
-   
-    const msg = document.getElementById("msg")
-
-   
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "Feedback sent successfully"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-
-
-
+    2.1. Access: You are responsible for ensuring that your access to and use of this website comply with all applicable laws and regulations.
+    <br>
+    2.2. User Accounts: If this website offers user accounts, you may be required to create an account. You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account.
+    <br>
+    2.3. Content: You may use the content provided on this website for personal, non-commercial purposes. You may not modify, reproduce, or distribute any content without written permission.
+    <br><br>
+    3. User Responsibilities<br>
+    
+    3.1. User Conduct: You agree to use this website in a manner consistent with all applicable laws and regulations and in accordance with these Terms and Conditions. You may not use this website for any unlawful or prohibited purpose.
+    <br>
+    3.2. Accuracy of Information: You agree that any information you provide to us through this website is accurate and complete. You are responsible for maintaining the accuracy of your personal information.
+    <br><br>
+    4. Privacy
+    <br>
+    Our Privacy Policy outlines how we collect, use, and protect your personal information. By using this website, you consent to our Privacy Policy.
+    <br><br>
+    5. Intellectual Property
+    <br>
+    5.1. Ownership: All content, trademarks, logos, and intellectual property on this website are the property of Smart Bytes. You may not use, copy, or reproduce any of these materials without our written permission.
+    <br>
+    5.2. User Submissions: If you submit any content to this website, you grant us a non-exclusive, royalty-free, worldwide, and perpetual license to use, modify, and display that content.
+    <br><br>
+    6. Disclaimer
+    <br>
+    6.1. Accuracy: We make every effort to ensure the accuracy of the information on this website. However, we do not guarantee the accuracy, completeness, or timeliness of the content.
+    <br>
+    6.2. No Legal Advice: The information provided on this website is for general informational purposes only and does not constitute legal advice. Consult with a qualified legal professional for legal guidance.
+    <br>
+    7. Limitation of Liability
+    <br>
+    Smart Bytes and its affiliates are not liable for any direct, indirect, incidental, special, or consequential damages resulting from your use of this website.
+    <br><br>
+    8. Changes to Terms
+    <br>
+    Smart Bytes reserves the right to modify or update these Terms and Conditions at any time without prior notice. It is your responsibility to review these terms periodically for changes.
+    <br><br>
+    9. Contact Information
+    
+    If you have questions or concerns about these Terms and Conditions, please contact us at <a href="contact.html">Contact information</a>.
+    <br><br><hr> 
+    <br><br>
 
     <section id="bar" style="background-color: black; width: 100%; height: 50px;">
         <div style="display: flex; justify-content: center; text-align: center;">
@@ -149,20 +160,19 @@
           </div>
     </section>
     
-    
-
-    
-<div class="slide2show-container">
    
-    <div class="my2Slides">
-        <img src="/images/bottomimg1.jpg" style="width:100%; height:200px">
+
+    <div class="slide2show-container">
+   
+        <div class="my2Slides">
+            <img src="/images/bottomimg1.jpg" style="width:100%; height:200px">
+        </div>
+        <div class="my2Slides">
+            <img src="/images/bottomimg2.jpg" style="width:100%; height:200px">
+        </div>
+        <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+        <div class="next" onclick="plusSlides(1)">&#10095;</div>
     </div>
-    <div class="my2Slides">
-        <img src="/images/bottomimg2.jpg" style="width:100%; height:200px">
-    </div>
-    <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
-    <div class="next" onclick="plusSlides(1)">&#10095;</div>
-</div>
     
     <script>
         let slide2Index = 1;
@@ -190,10 +200,10 @@
             slides[slide2Index - 1].style.display = "block";
         }
     </script>
-    
-    <div class="copyrightbottom">
-        <p>Website is owned and content managed by <span>Smart Bytes</span></p>
-    </div>
 
+<div class="copyrightbottom">
+    <p>Website is owned and content managed by <span>Smart Bytes</span></p>
+</div>
+    
 </body>
 </html>
