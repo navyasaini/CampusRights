@@ -158,33 +158,29 @@
 </div>
 
 <script>
-    let slideIndex = 0;
-    showSlides();
+    let slideIndex = 1;
+    showSlides(slideIndex);
 
     function plusSlides(n) {
-        showSlides((slideIndex += n));
+        showSlides(slideIndex += n);
     }
 
-    function showSlides() {
+    function showSlides(n) {
         let i;
         const slides = document.getElementsByClassName("mySlides");
+
+        if (n > slides.length) {
+            slideIndex = 1;
+        }
+        if (n < 1) {
+            slideIndex = slides.length;
+        }
 
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
 
-        if (slideIndex >= slides.length) {
-            slideIndex = 0;
-        }
-        if (slideIndex < 0) {
-            slideIndex = slides.length - 1;
-        }
-
-        slides[slideIndex].style.display = "block";
-
-        setTimeout(function () {
-            plusSlides(1);
-        }, 5000); 
+        slides[slideIndex - 1].style.display = "block";
     }
 </script>
 
@@ -239,31 +235,32 @@
 </div>
 
 <script>
-    let slideIndex = 0;
-    showSlides();
+    let slide2Index = 1;
+    show2Slides(slide2Index);
 
     function plusSlides(n) {
-        showSlides((slideIndex += n));
+        show2Slides(slide2Index += n);
     }
 
-    function showSlides() {
+    function show2Slides(n) {
         let i;
-        const slides = document.getElementsByClassName("mySlides");
+        const slides = document.getElementsByClassName("my2Slides");
+
+        if (n > slides.length) {
+            slide2Index = 1;
+        }
+        if (n < 1) {
+            slide2Index = slides.length;
+        }
 
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
 
-        if (slideIndex >= slides.length) {
-            slideIndex = 0;
-        }
-        if (slideIndex < 0) {
-            slideIndex = slides.length - 1;
-        }
-
-        slides[slideIndex].style.display = "block";
+        slides[slide2Index - 1].style.display = "block";
     }
 </script>
+
 
 
 
