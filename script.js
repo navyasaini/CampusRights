@@ -10,22 +10,11 @@ searchButton.addEventListener("click", function() {
 });
 
 
-//language button
 
-// JavaScript to toggle the language dropdown
-const languageButton = document.getElementById("language-button");
-const languageDropdown = document.getElementById("language-dropdown");
 
-languageButton.addEventListener("click", () => {
-    languageDropdown.classList.toggle("hidden");
-});
 
-// Close the dropdown when clicking outside of it
-window.addEventListener("click", (event) => {
-    if (!event.target.matches("#language-button")) {
-        languageDropdown.classList.add("hidden");
-    }
-});
+
+
 
 
 

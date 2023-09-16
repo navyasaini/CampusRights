@@ -18,6 +18,10 @@ function displayResults(searchTerm) {
         { title: "Awareness", url: "legalawareness.html" },
         { title: "KYC", url: "kyc.html" },
         { title: "Laws", url: "laws.html" },
+        { title: "Family", url: "laws.html" },
+        { title: "Family law", url: "laws.html" },
+        { title: "Criminal Law", url: "laws.html" },
+        { title: "Criminal", url: "laws.html" },
         { title: "Queries", url: "legalqueries.html" },
         // Define your searchable content here with titles and URLs
     ];
