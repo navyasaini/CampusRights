@@ -16,7 +16,7 @@ CampusRights aims to empower students by providing them with accessible informat
 
 - **Sexual Harassment:** Information on what constitutes sexual harassment, how to report it, and available support resources.
 - **Academic Integrity:** Guidelines on plagiarism, cheating, and other forms of academic misconduct.
-- **Privacy Rights:** Overview of the Family Educational Rights and Privacy Act (FERPA) and how it protects students' educational records.
+- **Privacy Rights:** 
 - **Financial Aid:** Information on student loans, grants, and financial responsibilities, including how to appeal financial aid decisions.
 
 ## Technologies Used
