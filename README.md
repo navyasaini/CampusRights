@@ -1,4 +1,35 @@
-# SIH
-Problem statement: Digital Assistant for Legal Awareness and Designing a KYC framework in India
+# CampusRights
+**CampusRights** is a website designed for college students to help them understand their rights on campus. The platform covers crucial areas such as sexual harassment, academic integrity, privacy rights, and financial aid, providing comprehensive information and resources.
 
-Description: Our project focuses on an educational website aiming to enhance legal awareness among citizens and provide guidance on India's Know Your Customer (KYC) framework. This website will serve as a comprehensive resource hub, offering a wide array of materials to help people understand legal concepts. Our user-friendly platform features an interactive UI, step-by-step guides, visual icons, user feedback, and voice search for accessibility. A notable feature of our initiative is its commitment to linguistic diversity, as we plan to offer the website in multiple languages, ensuring accessibility and inclusivity for a broader audience. By merging legal education with practical KYC guidance, our goal is to empower individuals with the knowledge and skills needed to make informed decisions within India's legal landscape. This initiative represents a significant step towards promoting legal literacy and empowering underprivileged and illiterate individuals. Continuous improvement will be achieved through partnerships with NGOs and community organisations
+## Table of Contents
+
+- [Project Description](#project-description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Contact Information](#contact-information)
+
+## Project Description
+
+CampusRights aims to empower students by providing them with accessible information about their rights in various areas of campus life. The website offers detailed explanations, interactive tools, and resources to help students navigate legal and institutional processes effectively.
+
+## Features
+
+- **Sexual Harassment:** Information on what constitutes sexual harassment, how to report it, and available support resources.
+- **Academic Integrity:** Guidelines on plagiarism, cheating, and other forms of academic misconduct.
+- **Privacy Rights:** Overview of the Family Educational Rights and Privacy Act (FERPA) and how it protects students' educational records.
+- **Financial Aid:** Information on student loans, grants, and financial responsibilities, including how to appeal financial aid decisions.
+
+## Technologies Used
+
+- **HTML**
+- **CSS**
+- **Bootstrap**
+- **JavaScript**
+- **React**
+
+## Contact Information
+
+If you have any questions or suggestions, feel free to reach out:
+
+- **Email:** saininavya0@gmail.com, sakshiraj713@gmail.com
+- **GitHub:** navyasaini, isakshiraj
