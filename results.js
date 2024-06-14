@@ -28,7 +28,7 @@ function displayResults(searchTerm) {
         { title: "educational records", url: "privacyrights.html" },
         { title: "personal information protection", url: "privacyrights.html" },
         { title: "student data privacy", url: "privacyrights.html" },
-        { title: "campus surveillance", url: "privacyrights.html" },
+        { title: "campus surveillance", url: "privacyrights.html" }.
         { title: "security cameras on campus", url: "privacyrights.html" },
         { title: "digital monitoring tools", url: "privacyrights.html" },
         { title: "consent and disclosure policies", url: "privacyrights.html" },
@@ -39,7 +39,7 @@ function displayResults(searchTerm) {
         { title: "protect online activities", url: "privacyrights.html" },
         { title: "confidentiality of academic achievements", url: "privacyrights.html" },
         { title: "privacy of medical records", url: "privacyrights.html" },
-        // Define your searchable content here with titles and URLs
+        
     ];
 
     const filteredData = data.filter(item => item.title.toLowerCase().includes(searchTerm.toLowerCase()));
