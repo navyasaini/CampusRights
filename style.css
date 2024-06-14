@@ -1,4 +1,4 @@
-/**************main heading Ministry of laws & justice***************************/
+/**************main heading Ministry of laws & justice***************************
 #heading{
     color: black;
     line-height: 0;
@@ -6,71 +6,7 @@
     margin-left: 5px;
 }
 
-/*******************************Language******************************************************/
-
-
-*{
-    padding: 0;
-    margin: 0;
-    
- 
-}
-
-#language-selector .lan{
-
-    display: inline-block;
-    position: relative;
-
-}
-
-#language-selector .lan a{
-
-    display: block;
-    padding: 20px 25px;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-}
-
-#language-button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-}
-    
-.language-menu li {
-    display: block;    
-}
-    
-.language-menu{
-    
-    width: 100%;   
-    background: #ac87f5;    
-    position: absolute;   
-    z-index: 999;
-    display: none;
-}    
-    
-#language-selector li a:hover {
-    background: #6d30e9;
-
-}
-    
-#language-selector .lan:hover .language-menu{
-    display: block;
-    
-}
-
-
-
-
-
- 
-
-/******************************Language and search (opposite side)*************************************************************/
+**************Language and search (opposite side**************************************
 
 #languageandsearch{
    display: flex; 
@@ -80,7 +16,12 @@
    margin-top: -15px;
 }
 
-/***********************************search and search button**********************************************************/
+
+
+
+
+
+/*******************************search and search button**********************************
 
 #search{
     margin-left: 5px;
@@ -105,7 +46,7 @@
 
 
 
-/******************************Enblem and Heading***********************************************/
+/******************************Enblem and Heading***********************************************
 
 #logo{
     height: 100px;
@@ -127,7 +68,7 @@
     margin-left: 10px;
 }
 
-/*******************************Center, home pages, Legal awareness and kyc*********************************************************/
+******************************Center, home pages, Legal awareness and kyc*********************************************************/
 
 #legal{
     font-style: italic;

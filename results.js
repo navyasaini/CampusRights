@@ -10,20 +10,36 @@ function getSearchTerm() {
 function displayResults(searchTerm) {
     // Sample data for searching (replace with your own data)
     const data = [
-        { title: "Contact", url: "contact.html" },
-        { title: "Legal", url: "legalawareness.html" },
-        { title: "Legal queries", url: "legalqueries.html" },
-        { title: "Legal Awareness", url: "legalawareness.html" },
-        { title: "know", url: "kyc.html" },
-        { title: "Awareness", url: "legalawareness.html" },
-        { title: "KYC", url: "kyc.html" },
-        { title: "Laws", url: "laws.html" },
-        { title: "Family", url: "laws.html" },
-        { title: "Family law", url: "laws.html" },
-        { title: "Criminal Law", url: "laws.html" },
-        { title: "Criminal", url: "laws.html" },
-        { title: "Queries", url: "legalqueries.html" },
-        // Define your searchable content here with titles and URLs
+        { title: "Campus Rights", url: "index.html" },
+        { title: "Financial Aid for College Students", url: "financialaid.html" },
+        { title: "Privacy Rights", url: "privacyrights.html" },
+        { title: "Sexual Harassment", url: "sexualharassment.html" },
+        { title: "Academic Integrity", url: "academicintegrity.html" },
+        { title: "Government schemes for financial assistance", url: "financialaid.html" },
+        { title: "Department of Higher Education (DHE)", url: "financialaid.html" },
+        { title: "scholarships and fellowships", url: "financialaid.html" },
+        { title: "financial assistance", url: "financialaid.html" },
+        { title: "Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Yojana", url: "financialaid.html" },
+        { title: "National Education Policy (NEP) 2020", url: "financialaid.html" },
+        { title: "Gross Enrolment Ratio in higher education", url: "financialaid.html" },
+        { title: "Economically Weaker Sections (EWS)", url: "financialaid.html" },
+        { title: "Family Educational Rights and Privacy Act (FERPA)", url: "privacyrights.html" },
+        { title: "Health Insurance Portability and Accountability Act (HIPAA)", url: "privacyrights.html" },
+        { title: "educational records", url: "privacyrights.html" },
+        { title: "personal information protection", url: "privacyrights.html" },
+        { title: "student data privacy", url: "privacyrights.html" },
+        { title: "campus surveillance", url: "privacyrights.html" }.
+        { title: "security cameras on campus", url: "privacyrights.html" },
+        { title: "digital monitoring tools", url: "privacyrights.html" },
+        { title: "consent and disclosure policies", url: "privacyrights.html" },
+        { title: "FERPA regulations", url: "privacyrights.html" },
+        { title: "report privacy violations", url: "privacyrights.html" },
+        { title: "digital privacy protection", url: "privacyrights.html" },
+        { title: "online privacy", url: "privacyrights.html" },
+        { title: "protect online activities", url: "privacyrights.html" },
+        { title: "confidentiality of academic achievements", url: "privacyrights.html" },
+        { title: "privacy of medical records", url: "privacyrights.html" },
+        
     ];
 
     const filteredData = data.filter(item => item.title.toLowerCase().includes(searchTerm.toLowerCase()));
