@@ -3,230 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Bytes</title>
+    <title>Privacy Rights</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/9b9776118a.js" crossorigin="anonymous"></script>
-
-
-
-
-    <section id="languageandsearch">
-        
-        <section id="search">
-            <div class="searchandbutton">
-                <div class="search-container">
-                    <input type="text" id="search-input" placeholder="Search...">
-                    <button id="search-button">Search</button>
-                </div>
-                <div id="search-results"></div>
-            
-                <script src="script.js"></script>
-            </div>
-        </section>
-   
-
-
-    <!----------------------Language start------------------------------------------->
-        <div>
-            <div id="language-selector">
-                <li class="lan">
-                    <a><button id="language-button">Select Language</button></a>
-                     <ul class="language-menu">
-                        <li><a href="#">Bengali</a></li>
-                        <li><a href="#">English</a></li>
-                        <li><a href="#">Gujarati</a></li>
-                        <li><a href="#">Hindi</a></li>
-                        <li><a href="#">Marathi</a></li>                        
-                        <li><a href="#">Tamil</a></li>
-                        <li><a href="#">Telugu</a></li>
-                    </ul>
-                </li>
-            </div>
-        </div>
-    
-    </section>
-    
-       
-
-    <!--------------------Language finish------------------------------------>
-
-
-       
-
-
-    <style>
-        .slideshow-container {
-            width: 100%;
-            overflow: hidden;
-            position:relative;
-        }
-        .mySlides {
-            width:100%;
-            overflow:hidden;
-            display: none;
-
-        }
-        .mySlides img{
-            width:100%;
-        }
-        .prev, .next {
-            cursor: pointer;
-            position: absolute;
-            top: 50%;
-            width: auto;
-            padding: 16px;
-            margin-top: -22px;
-            color: black;
-            font-weight: bold;
-            font-size: 18px;
-            transition: 0.6s ease;
-            border-radius: 0 3px 3px 0;
-        }
-        .prev {
-            left: 0;
-            border-radius: 3px 0 0 3px;
-        }
-        .next {
-            right: 0;
-            border-radius: 0 3px 3px 0;
-        }
-    </style>
-
-
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     
-<div id="mainheading">
-    <section id="logoandheading" >
-        <img id="logo" src="/images/logo1.jpg">
-        <div id="heading"> 
-            <h2>LegalKycBuddy</h2>            
+    <!-- Header Section -->
+    <div id="mainheading" class="bg-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div id="logoandheading" class="d-flex align-items-center">
+                <img id="logo" src="/images/logo1.jpg" alt="Logo" style="width: 50px; height: 50px;">
+                <h2 class="ml-3">CampusRights</h2>
+            </div>
+            <div id="search" class="searchangebutton">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search..." class="form-control">
+                    <button id="search-button" class="btn btn-primary mt-2">Search</button>
+                </div>
+                <div id="search-results"></div>
+            </div>
         </div>
-    </section>
-</div>
-<br>
-<br>
-<section id="menu"><ul class="nav">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page">Menu</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="Aboutus.html">About Us</a>
-      </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Laws.html">Laws</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="legalqueries.html">Legal Queries</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="faqs.html">FAQ's</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="feedback.html">Feedback</a>
-      </li>
-  </ul>
-</section>
-
-<div class="slideshow-container">
-    <div class="mySlides firstSlideshow">
-        <img src="/images/g20logo.jpg" style="width:100%; height:200px">
     </div>
-    <div class="mySlides">
-        <img src="/images/AzadikaAmritMahotsav.jpg" style="width:100%; height:200px">
-    </div>
-    <div class="mySlides">
-        <img src="/images/mannkibaat.jpeg" style="width:100%; height:200px">
-    </div>
-    <div class="mySlides">
-        <img src="/images/monuments.jpg" style="width:100%; height:200px">
-    </div>
-    <div class="mySlides">
-        <img src="/images/justice.jpg" style="width:100%; height:200px">
-    </div>
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
 
 
 
-<div style="display: flex;">
-<section>
-<div id="box1" class="box" >
-    <img src="/images/legal.jpg" class="card-img-top" height="200px" width=100%>
-    <div class="card-body">
-      <h3 class="card-title">Legal Awareness</h3><p>Legal Awareness, sometimes called public legal education or legal literacy, is the empowerment of individuals regarding issues involving the law.</p>
-      <a href="legalawareness.html"><button style="background-color: skyblue; color: black; border-color: skyblue;" type="button" class="btn btn-success"><b>Know More</b></button>
-    </a></div>
-  </div>
-</section>
-
-
-<section>
-  <div id="box2" class="box">
-    <img src="/images/kyc.jpg" class="card-img-top" height="200px" width=100%>
-    <div class="card-body">
-      <h3 class="card-title">KYC</h3><p>KYC means to 'know your customer' which is an effective way for an institution to confirm and thereby verify the authenticity of a customer.</p>
-      <a href="KYC.html">
-      <button style="background-color: skyblue; color: black; border-color: skyblue;" type="button" class="btn btn-success"><b>Know More</b></button>
-    </a>
-    </div>
-  </div>
-</section>
-</div>
-<br>
-<hr>
-<section id="lowermenu" style="background-color: black; width: 100%; height: 50px;">
-    <div style="display: flex; justify-content: center; text-align: center;">
-    <nav class="nav nav-pills flex-column flex-sm-row">
-        <a  style="color:white;text-decoration:none; margin: 0 10px;" class="flex-sm-fill text-sm-center nav-link active" href="index.html">Home</a>
-        <a  style="color:white;text-decoration:none; margin: 0 10px;" class="flex-sm-fill text-sm-center nav-link active" href="help.html">Help</a>
-        <a style="color:white; text-decoration: none; margin: 0 10px;"   class="flex-sm-fill text-sm-center nav-link" href="disclaimer.html">Disclaimer</a>
-        <a style="color: white; text-decoration: none; margin: 0 10px;" class="flex-sm-fill text-sm-center nav-link" href="contact.html">Contact us</a>
-        <a style="color: white; text-decoration: none; margin: 0 10px;" class="flex-sm-fill text-sm-center nav-link" href="websitepolicies.html">Website Policies</a>
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="privacyright/privacyrights.html">Privacy Rights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sexualharassment/sexualharass.html">Sexual Harassment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="academicintegrity/academicintegrity.html">Academic Integrity</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="financialaid/financialaid.html">Financial Aid</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-      </div>
-</section>
-
-<div class="my2Slides">
-    <img src="/images/bottomimgindex.jpg" style="width:100%; height:200px">
-</div>
 
 
+<!-- Footer Section -->
+<footer class="bg-light text-center py-3 mt-5">
+    <div class="container">
+        <p>Website is owned and content managed by <span>CampusRights</span></p>
+    </div>
+</footer>
 
-<div class="copyrightbottom">
-    <p>Website is owned and content managed by <span>Smart Bytes</span></p>
-</div>
 
-<script>
-    let slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
-
-    function showSlides(n) {
-        let i;
-        const slides = document.getElementsByClassName("mySlides");
-
-        if (n > slides.length) {
-            slideIndex = 1;
-        }
-        if (n < 1) {
-            slideIndex = slides.length;
-        }
-
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-
-        slides[slideIndex - 1].style.display = "block";
-    }
-</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
 
-
-</body> 
+</body>
 </html>

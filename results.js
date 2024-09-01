@@ -10,7 +10,7 @@ function getSearchTerm() {
 function displayResults(searchTerm) {
     // Sample data for searching (replace with your own data)
     const data = [
-        { title: "Campus Rights", url: "index.html" },
+        { title: "Campus Rights", url: "financial.html" },
         { title: "Financial Aid for College Students", url: "financialaid.html" },
         { title: "Privacy Rights", url: "privacyrights.html" },
         { title: "Sexual Harassment", url: "sexualharassment.html" },
@@ -28,7 +28,7 @@ function displayResults(searchTerm) {
         { title: "educational records", url: "privacyrights.html" },
         { title: "personal information protection", url: "privacyrights.html" },
         { title: "student data privacy", url: "privacyrights.html" },
-        { title: "campus surveillance", url: "privacyrights.html" }.
+        { title: "campus surveillance", url: "privacyrights.html" },
         { title: "security cameras on campus", url: "privacyrights.html" },
         { title: "digital monitoring tools", url: "privacyrights.html" },
         { title: "consent and disclosure policies", url: "privacyrights.html" },
